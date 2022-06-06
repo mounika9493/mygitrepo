@@ -1,0 +1,13 @@
+node{
+stage('clone java project') {
+  git 'https://github.com/mounika9493/javaproj.git'
+}    
+stage('execute maven target') {
+   sh 'mvn install'
+}
+    
+    
+    
+    
+    
+}
